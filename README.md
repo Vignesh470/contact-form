@@ -33,15 +33,17 @@ Users should be able to:
 ### Screenshot
 
 Desktop Solution:
+
 ![](./design/solution%20-%20desktop.png)
 
 Mobile Solution:
+
 ![](./design/solution%20-%20mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link](https://www.frontendmentor.io/solutions/validating-a-contact-form-using-javascript-HYvns98Kn6)
+- Live Site URL: [Link](https://vignesh470.github.io/contact-form/)
 
 ## My process
 

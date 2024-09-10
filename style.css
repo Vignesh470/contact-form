@@ -186,6 +186,10 @@ input[type=submit] {
     color: hsl(0, 0%, 100%);
 }
 
+input[type=submit]:hover {
+    background-color: hsl(169, 82%, 18%);
+}
+
 #submit-note {
     display: none;
 }

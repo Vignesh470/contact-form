@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <link rel="stylesheet" href="./style.css"> 
+  
+  <style>
+    .attribution { 
+      font-size: 11px; 
+      text-align: center;
+      color: hwb(0 0% 100%);
+      margin-block: 2rem;  
+    }
+
+    .attribution a { 
+      color: hsl(228, 45%, 44%);
+     }
+  </style>
+</head>
+
+<body>
+  <div id="submit-note">
+    <p><img src="./assets/images/icon-success-check.svg" alt="tick mark of success message"> Message Sent!</p>
+    <p>Thanks for completing the form. We'll be in touch soon!</p>
+  </div>
+
+  <form id="form" novalidate>
+    <div class="form-inputs">
+      <p class="contact-title">Contact Us</p>
+      <div>
+        <label for="first-name">First Name *</label><br>
+        <input type="text" id="first-name">
+        <p class="error"></p>
+      </div>
+    
+      <div>
+        <label for="last-name">Last Name *</label><br>
+        <input type="text" id="last-name">
+        <p class="error"></p>
+      </div>
+    
+      <div>
+        <label for="email">Email Address *</label><br>
+        <input type="email" id="email">
+        <p class="error"></p>
+      </div>
+      
+      <div class="query-type">
+        <div>
+          <label for="query">Query Type *</label>
+        </div>
+        <div>
+          <input type="radio" id="generalQuery" name="query" value="General Enquiry">
+          <label for="generalQuery">General Enquiry</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="supportReq" name="query" value="Support Request">
+          <label for="supportReq">Support Request</label>
+        </div>
+        <p class="queryError"></p>
+      </div>
+    
+      <div>
+        <label for="message">Message *</label><br>
+        <textarea cols="40" rows="3" id="message"></textarea>
+        <p class="error"></p>
+      </div>
+    
+      <div>
+        <input type="checkbox" id="consent">
+        <label for="consent">I consent to being contacted by the team*</label><br>
+        <p class="error"></p>
+      </div>
+    
+      <div>
+        <input type="submit" name="submit" value="Submit">
+      </div>
+    </div>
+  </form>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Vignesh470" target="_blank">Vignesh470</a>.
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
